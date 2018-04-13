@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(int argc, char **argv)
 {
-    int a[] = {2, 4, 6, 8, 10, 12, 14, 16};
+    int a[] = {2, 4, 6, 8, 10, 12, 14, 16,20,45,69,98};
     int key = atoi(argv[1]);
-    int n = 8;
+    int n = 12;
     int low = 0;
     int high = n - 1;
     int middle;
